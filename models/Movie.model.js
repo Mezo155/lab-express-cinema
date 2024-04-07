@@ -17,7 +17,7 @@ const movieSchema = mongoose.Schema({
         type: String,
     },
     showtimes: {
-        type: [Number],
+        type: [String],
     },
     
 });
